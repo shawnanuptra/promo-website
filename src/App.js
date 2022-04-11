@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import hero from './pics/hero.jpg';
 import Hero from './components/Hero';
 import Goal from './components/Goal';
+import Ingredients from './components/Ingredients';
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
       <Navbar curPage='home' />
       <Hero />
       <Goal />
+      <Ingredients />
     </>
   );
 }
