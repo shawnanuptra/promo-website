@@ -6,7 +6,7 @@ export default function Hero() {
 
     return (
         <>
-            <img src={hero} className="heroImg" />
+            <img src={hero} className="heroImg" alt='Leaves' />
 
             <div className='hero'>
                 <h1 className='title'>ASPIRE EDUCATION</h1>

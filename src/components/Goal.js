@@ -12,7 +12,7 @@ export default function Goal() {
                     <p>Learning is much more than passively reading textbooks, or listening to a teacher explain. We want students to participate in active learning.</p>
                     <p>Hence, we are continuously discovering new and exciting ways for students to learn.</p>
                 </div>
-                <img src={logo} className='logo' />
+                <img src={logo} className='logo' alt='logo' />
             </div>
         </>
     )
