@@ -45,13 +45,14 @@
 	background-color: #f9f8f6;
 	font-size: 1.5rem;
 	border-radius: 10px;
-	transition: all 0.3ms ease-in;
+	transition: all 0.3s ease-in;
 	width: fit-content;
+	text-decoration: none;
 }
 
 .cta:hover {
 	background-color: #449601;
 	color: #fff;
-	transition: all 0.3ms ease-in;
+	transition: all 0.3s ease-in;
 	cursor: pointer;
 }

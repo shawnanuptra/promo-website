@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Goal from './components/Goal';
 import Ingredients from './components/Ingredients';
+import { Link } from 'react-router-dom';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
         <h2 className='learning'>
           Ready to enhance your learning?
         </h2>
-        <button className='cta-big'>Contact Us &#8594;</button>
+        <Link to='/contact' className='cta-big'>Contact Us &#8594;</Link>
       </div>
     </>
   );
