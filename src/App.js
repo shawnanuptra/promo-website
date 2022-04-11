@@ -12,6 +12,12 @@ function App() {
       <Hero />
       <Goal />
       <Ingredients />
+      <div className='catch-phrase'>
+        <h2 className='learning'>
+          Ready to enhance your learning?
+        </h2>
+        <button className='cta-big'>Contact Us &#8594;</button>
+      </div>
     </>
   );
 }
