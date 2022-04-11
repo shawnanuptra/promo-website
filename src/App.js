@@ -1,20 +1,16 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import hero from './pics/hero.jpg';
-import Hero from './components/Hero'
-function App() {
+import Hero from './components/Hero';
+import Goal from './components/Goal';
 
-  const heroStyle = {
-    position: 'relative',
-    zIndex: '-2',
-    width: '80%',
-    top: '-20%'
-  }
+function App() {
 
   return (
     <>
       <Navbar curPage='home' />
       <Hero />
+      <Goal />
     </>
   );
 }
