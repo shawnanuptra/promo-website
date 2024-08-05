@@ -1,83 +1,92 @@
 .contact {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: calc(100vh - 104px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 5%;
 }
 
 .part1 {
-	display: grid;
-	gap: 20px;
-	grid-template-columns: auto 1.1fr;
-	grid-template-rows: 1fr;
-	grid-template-areas: ". .";
-	margin-bottom: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto 1.1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". .";
+    margin-bottom: 20px;
 }
 
 .contact > form {
-	display: flex;
-	flex-direction: column;
-	background: rgba(122, 194, 66, 0.19);
-	border: 1px solid #418d02;
-	border-radius: 10px;
-	font-size: 24px;
-	width: 30%;
-	height: 70%;
-	padding: 3rem;
-}
-
-.contact > div {
-	width: 35%;
-	margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(122, 194, 66, 0.19);
+    border: 1px solid #418d02;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 3rem;
+    width: 90%;
+    max-width: 800px;
 }
 
 .message {
-	display: block;
+    display: block;
 }
 .group1 {
-	height: fit-content;
+    height: fit-content;
 }
 .group2 {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 .message-text {
-	width: 100%;
-	height: 100%;
-	resize: none;
-	margin: 0;
-	margin-bottom: 2rem;
-	box-sizing: border-box;
+    width: 100%;
+    resize: none;
+    margin: 0;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
 }
 
 .title-contact {
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 600;
-	font-size: 72px;
-
-	color: #000000;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 1.1;
+    color: #000000;
 }
 
 .contact-content {
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
 
-	color: #000000;
+    color: #000000;
 }
 
 .group2 > div {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .group2 > div > .cta {
-	margin-left: auto;
-	margin-right: 0;
-	text-align: right;
-	display: block;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+    .title-contact {
+        font-size: 3rem;
+    }
+    .contact-content {
+        font-size: medium;
+    }
+    label {
+        font-size: 1rem;
+    }
+    .contact > form {
+        padding: 2rem 1rem;
+    }
 }

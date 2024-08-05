@@ -53,4 +53,8 @@
     .navStyle {
         padding: 0.5rem;
     }
+
+    .navItemGroup > a {
+        font-size: 1rem;
+    }
 }

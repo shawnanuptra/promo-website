@@ -31,7 +31,7 @@ export default function Contact() {
                     <div className='group2'>
                         <label className='message'>Message</label>
                         <div>
-                            <textarea class='message-text' type='text' id='subject' name='subject' />
+                            <textarea class='message-text' type='text' id='subject' name='subject' rows={20} />
                             <button className='cta'>Submit</button>
                         </div>
                     </div>
