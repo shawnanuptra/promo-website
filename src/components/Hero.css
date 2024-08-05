@@ -1,58 +1,81 @@
 .heroImg {
-	position: absolute;
-	z-index: -2;
-	width: 80%;
-	top: -20%;
+    position: absolute;
+    z-index: -2;
+    width: 80%;
+    top: 0;
+    right: 0;
+    transform: scaleX(-1);
+    filter: opacity(0.3);
+    /* display: none; */
 }
 
 .hero {
-	text-align: right;
-	width: 55%;
-	margin-left: auto;
-	margin-right: 5%;
-	height: calc(100vh - 104px);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+    padding-top: 4rem;
+    max-width: 40rem;
+    /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 .title {
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 600;
-	font-size: 6rem;
-	line-height: 108px;
-	color: #449601;
-	margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 108px;
+    color: #449601;
+    margin: 0;
 }
 
 .subtitle {
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 3rem;
-	line-height: 60px;
-	text-align: right;
-	color: #4e4d4d;
-	/* margin: 0; */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 60px;
+    color: #4e4d4d;
+    /* margin: 0; */
 }
 
 .cta {
-	color: #449601;
-	border: 1px solid #449601;
-	padding: 1rem 2rem;
-	background-color: #f9f8f6;
-	font-size: 1.5rem;
-	border-radius: 10px;
-	transition: all 0.3s ease-in;
-	width: fit-content;
-	text-decoration: none;
+    background-color: #449601;
+    border: 1px solid #449601;
+    padding: 1rem 2rem;
+    color: #f9f8f6;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+    width: fit-content;
+    text-decoration: none;
 }
 
 .cta:hover {
-	background-color: #449601;
-	color: #fff;
-	transition: all 0.3s ease-in;
-	cursor: pointer;
+    color: #449601;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        align-items: start;
+        padding-top: 2rem;
+    }
+    .title {
+        font-size: 3rem;
+        line-height: 1;
+        text-align: start;
+    }
+
+    .subtitle {
+        text-align: start;
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .cta {
+        font-size: 1rem;
+    }
 }

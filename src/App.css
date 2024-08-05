@@ -1,11 +1,15 @@
+main {
+    /* padding: 2rem; */
+    position: relative;
+}
 .learning {
-	font-family: Poppins;
-	font-size: 64px;
-	font-weight: 700;
-	line-height: 96px;
-	letter-spacing: 0em;
-	text-align: center;
-	color: #418d02;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #418d02;
 }
 
 /* font-family: "Poppins";
@@ -17,30 +21,30 @@ line-height: 54px;
 
 /* color: #449601; */
 .cta-big {
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 36px;
-	line-height: 54px;
-	color: #449601;
-	border: 1px solid #449601;
-	padding: 1rem 2rem;
-	background-color: #f9f8f6;
-	font-size: 1.5rem;
-	border-radius: 10px;
-	transition: all 0.3s ease-in;
-	width: fit-content;
-	text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #449601;
+    border: 1px solid #449601;
+    padding: 1rem 2rem;
+    background-color: #f9f8f6;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    width: fit-content;
+    text-decoration: none;
 }
 
 .cta-big:hover {
-	background-color: #449601;
-	color: #fff;
-	transition: all 0.3s ease-in;
-	cursor: pointer;
+    background-color: #449601;
+    color: #fff;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
 }
 
 .catch-phrase {
-	text-align: center;
-	margin-bottom: 25rem;
+    text-align: center;
+    margin-bottom: 25rem;
 }
