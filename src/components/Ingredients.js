@@ -14,21 +14,27 @@ export default function Ingredients() {
             <div className='col-3'>
                 <div className='card'>
                     <Immersive />
-                    <h3 className='card-title'>Immersive</h3>
-                    <hr />
-                    <p>Students need to feel like they are transported somewhere else for learning - not “another classroom”</p>
+                    <div className='card-content'>
+                        <h3 className='card-title'>Immersive</h3>
+                        <hr />
+                        <p>Students need to feel like they are transported somewhere else for learning - not “another classroom”</p>
+                    </div>
                 </div>
                 <div className='card'>
                     <Interactive />
-                    <h3 className='card-title'>Interactive</h3>
-                    <hr />
-                    <p>Students need to feel like they are transported somewhere else for learning - not “another classroom”</p>
+                    <div className='card-content'>
+                        <h3 className='card-title'>Interactive</h3>
+                        <hr />
+                        <p>Students need to feel like they are transported somewhere else for learning - not “another classroom”</p>
+                    </div>
                 </div>
                 <div className='card'>
                     <Inclusive />
-                    <h3 className='card-title'>Inclusive</h3>
-                    <hr />
-                    <p>Students need to feel like they are transported somewhere else for learning - not “another classroom”</p>
+                    <div className='card-content'>
+                        <h3 className='card-title'>Inclusive</h3>
+                        <hr />
+                        <p>Students need to feel like they are transported somewhere else for learning - not “another classroom”</p>
+                    </div>
                 </div>
             </div>
         </div>

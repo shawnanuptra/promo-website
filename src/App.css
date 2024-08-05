@@ -3,7 +3,7 @@ main {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 20rem;
 }
 .learning {
     font-family: Poppins;
@@ -50,4 +50,10 @@ line-height: 54px;
 .catch-phrase {
     text-align: center;
     margin-bottom: 25rem;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        gap: 5rem;
+    }
 }
