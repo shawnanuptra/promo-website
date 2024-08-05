@@ -1,6 +1,9 @@
 main {
     /* padding: 2rem; */
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
 }
 .learning {
     font-family: Poppins;

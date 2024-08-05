@@ -4,7 +4,7 @@ import logo from '../pics/Goal.png'
 
 export default function Goal() {
     return (
-        <>
+        <div className='goal-wrapper'>
             <h2 className='goal-title'>Our Goal</h2>
             <div className='content'>
                 <div className='text'>
@@ -14,6 +14,6 @@ export default function Goal() {
                 </div>
                 <img src={logo} className='logo' alt='logo' />
             </div>
-        </>
+        </div>
     )
 }
