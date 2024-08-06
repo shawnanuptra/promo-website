@@ -44,8 +44,10 @@ export default function AboutUs() {
                 </div>
 
                 <div className='about-part'>
-                    <h2 className='about-subtitle'>Logo</h2>
+                    <h2 className='logo-title'>Logo</h2>
                     <div className='logo-content'>
+
+                        <img src={Logo} alt='logo' className='logo' />
                         <div>
 
                             <p>Our logo is a growing leaf shaped like a lightbulb. The leaf signifies growth; the growth of our clients, the growth of ourselves, and the growth of the human race as a whole.
@@ -57,7 +59,6 @@ export default function AboutUs() {
                                 It also signifies the “A-ha!” moment. The moment when we learned something new. The moment when we understood something that we did not understand before. This “A-ha!” moment is something that we strive to give to our students and clients through the means of education.
                             </p>
                         </div>
-                        <img src={Logo} alt='logo' className='logo' />
                     </div>
                 </div>
             </div>
